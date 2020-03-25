@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+    font-family:'Montserrat',sans-serif;
+}
+img{
+    width:25px;
+}
+/* header -- begin */
+
+.navbar-default {
+    background-color: #1F88E9;
+    width: 100%;
+    padding:0 ;
+    margin: 0;
+    border-style: hidden;
+    border-radius: 0;
+   
+}
+
+.navbar-brand img{ 
+    margin-top: 2px;
+    width:40px;
+    height: auto;
+    
+}
+
+ul{
+    width: 100%;
+    
+}
+
+.navbar-default .navbar-nav li {
+   padding: 0 10px;
+    margin: -3% 0 0 8%;
+   
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+    letter-spacing: 3px;
+   
+}
+
+
+.navbar-default .navbar-nav li {
+    display: inline;
+    
+}
+
+
+.navbar-default .navbar-nav li a:hover {
+    color:black;
+    font-weight: bold;
+   
+}
+
