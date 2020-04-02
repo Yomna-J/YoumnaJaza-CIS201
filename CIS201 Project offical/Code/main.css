@@ -11,10 +11,14 @@
 img{
     width:25px;
 }
+.container{
+    width:50%;
+    margin:0 auto;
+    
+}
 /* header -- begin */
-
 .navbar-default {
-    background-color: #1F88E9;
+    background-color: #1f88e9;
     width: 100%;
     padding:0 ;
     margin: 0;
@@ -24,7 +28,7 @@ img{
 }
 
 .navbar-brand img{ 
-    margin-top: 2px;
+    margin-top: -10%;
     width:40px;
     height: auto;
     
@@ -32,18 +36,32 @@ img{
 
 ul{
     width: 100%;
+    left: 9%;
+    
+}
+.box-0{
+    display: grid;
+    width: 90%;
+    margin-top: -2%;
+    grid-template-columns: repeat(5,auto);
+    
     
 }
 
+/*
 .navbar-default .navbar-nav li {
-   padding: 0 10px;
-    margin: -3% 0 0 8%;
+   padding: 0 1%;
+    margin:auto;
+    margin-top: -3% ;
+    margin-left: 8%;
    
 }
+*/
 
 .navbar-default .navbar-nav li a {
     color: white;
-    letter-spacing: 3px;
+    letter-spacing: px;
+    padding: 10px;
    
 }
 
@@ -55,8 +73,43 @@ ul{
 
 
 .navbar-default .navbar-nav li a:hover {
-    color:black;
-    font-weight: bold;
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+/* header -------------- end */
+
+@media (max-width:1115px){
+    
+    .box-0{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    li{
+        margin: 5% 0 0 0;
+        width:50%;
+    }
+    
    
 }
 
+
+}
+
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {.....}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
