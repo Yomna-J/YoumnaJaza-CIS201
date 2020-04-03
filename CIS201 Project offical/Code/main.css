@@ -188,8 +188,15 @@ ul{
         font-size:4vw;
         text-align: center;
     }
+   
     .box-2 img{
-        width: 60%;
+        width: 55%;
+    }
+    #about .box-1 p{
+        font-size: 3vw;
+    }
+    #about .box-1 h2{
+        font-size: 7vw;
     }
     
     
