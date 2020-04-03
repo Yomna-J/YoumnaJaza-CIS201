@@ -188,7 +188,6 @@ ul{
         font-size:4vw;
         text-align: center;
     }
-   
     .box-2 img{
         width: 55%;
     }
@@ -197,6 +196,7 @@ ul{
     }
     #about .box-1 h2{
         font-size: 7vw;
+        align-self: flex-start;
     }
     
     
