@@ -260,8 +260,14 @@ ul{
         font-size: 7vw;
         align-self: flex-start;
     }
-    
-    
+ 
+     #skills{
+        height: 220%;
+         
+    }
+    #certifications{
+        top: 360%;
+    }
 
    
 }

@@ -40,31 +40,39 @@
   color: #aaa;
   margin-top: 12px;
 }
+
 #c-1{
-  width: 50%;
+  width: 100px;
+    margin-top: -4px;
 }
 #c-2{
-  width: 35%;
+  width: 70px;
+      margin-top: -5px;
 }
 #c-3{
-  width: 50%;
+    width: 100px;
+    margin-top: -7px;
 }
 #c-4{
-  width: 40%;
-  margin-top: -3%;
+  width: 75px;
+  margin-top: -10px;
 }
 #c-5{
-  width: 50%;
+  width: 90px;
 }
 #c-6{
-  width: 55%;
-  margin-top: -3%;
+  width: 110px;
+  margin-top: -18px;
 }
 @media (max-width:750px){
     .progressbar{
-        width: 30%;
+        width: 50%;
+        margin-left: -33px;
     }
     .circle{
-        margin:15% ;
+        margin:10% 0 0 7%;
     }
+
+
+
 }
