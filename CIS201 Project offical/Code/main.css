@@ -79,7 +79,7 @@ ul{
     flex-direction: row;
 }
 .box-1{
-    background-color: burlywood;
+   
     width: 100%;
     height: 100%;
     display: grid;
@@ -101,7 +101,7 @@ ul{
     text-align:center;
 }
 .box-2{
-    background-color: coral;
+    
     position: relative;
     width: 100%;
     height: 100%;
@@ -121,7 +121,7 @@ ul{
     margin: 0 auto;
 }
 #about{
-    background-color: rgb(119, 14, 14);
+    
     filter: drop-shadow(50px 50px 99px rgba(65, 65, 65, 0.059));
     border: solid lightgrey;
     border-radius: 20px;
@@ -170,7 +170,7 @@ ul{
    
 }
 #certifications{
-     background-color: rgb(119, 14, 14);
+
     filter: drop-shadow(50px 50px 99px rgba(65, 65, 65, 0.059));
     border: solid lightgrey;
     border-radius: 20px;
@@ -192,7 +192,7 @@ ul{
     margin: 0 auto;
 }
 #contact{
-   background-color: rgb(119, 14, 14);
+
     filter: drop-shadow(50px 50px 99px rgba(65, 65, 65, 0.059));
     border: solid lightgrey;
     border-radius: 20px;
@@ -247,13 +247,14 @@ ul{
         font-size:4vw;
         text-align: center;
     }
+    #home .box-2 img{
+        width:80%;
+    }
     .box-2 img{
-        width: 55%;
+        width: 70%;
     }
     #about .box-1 p,#certifications .box-1 p{
         font-size: 3vw;
-        color: darkmagenta;
-        
     }
     #about .box-1 h2,#certifications .box-1 h2{
         font-size: 7vw;
