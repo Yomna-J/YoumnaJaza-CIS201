@@ -60,3 +60,11 @@
   width: 55%;
   margin-top: -3%;
 }
+@media (max-width:750px){
+    .progressbar{
+        width: 30%;
+    }
+    .circle{
+        margin:15% ;
+    }
+}
