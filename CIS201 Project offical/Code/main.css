@@ -67,8 +67,8 @@ ul{
 /*-White Rectangle-*/
 #home{
     background-color: white;
-    border: solid lightgrey;
-    filter: drop-shadow(50px 50px 99px rgba(65, 65, 65, 0.059));
+    border: 0.8px solid lightgrey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
     border-radius: 20px;
     width: 80%;
     position: absolute;
@@ -122,8 +122,8 @@ ul{
 }
 #about{
     
-    filter: drop-shadow(50px 50px 99px rgba(65, 65, 65, 0.059));
-    border: solid lightgrey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    
     border-radius: 20px;
     width: 80%;
     position: absolute;
@@ -132,6 +132,7 @@ ul{
     top: 100%;
     left: 10%;
     height: 170%;
+     
 }
 /*---------Section-3 --------*/
 .section-3{
@@ -143,8 +144,8 @@ ul{
 }
 #skills{
    
-    filter: drop-shadow(50px 50px 99px rgba(65, 65, 65, 0.059));
-    border: solid lightgrey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    
     border-radius: 20px;
     width: 80%;
     position: absolute;
@@ -171,8 +172,8 @@ ul{
 }
 #certifications{
 
-    filter: drop-shadow(50px 50px 99px rgba(65, 65, 65, 0.059));
-    border: solid lightgrey;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+   
     border-radius: 20px;
     width: 80%;
     position: absolute;
@@ -193,8 +194,7 @@ ul{
 }
 #contact{
 
-    filter: drop-shadow(50px 50px 99px rgba(65, 65, 65, 0.059));
-    border: solid lightgrey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
     border-radius: 20px;
     width: 80%;
     position: absolute;
@@ -266,7 +266,7 @@ ul{
          
     }
     #certifications{
-        top: 360%;
+        top: 350%;
     }
 
    
