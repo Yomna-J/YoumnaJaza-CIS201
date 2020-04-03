@@ -11,6 +11,7 @@
         <!-- nav bar -->
          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" href="circles.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
@@ -83,29 +84,44 @@
             
         </section>
         
-        <section class="section-3">
+              <section class="section-3">
             <div class="container" id="skills">
                 <h1>My Skills</h1>
-                <div id="circl1">
-                    <img src="imgs/html.png" alt="html logo">
+                
+                <div class="progressbar" data-animate="false">
+                    <div class="circle" data-percent="80">
+                      <div><img id="c-1" src="imgs/html.png" alt="html logo"></div>
+                    </div>
                 </div>
-                <div id="circl2">
-                    <span><img src="imgs/css.png" alt="css logo"></span>
+                <div class="progressbar" data-animate="false">
+                    <div class="circle" data-percent="75">
+                      <div><img id="c-2"src="imgs/css.png" alt="css logo"></div>
+                    </div>
+                 </div>
+                <div class="progressbar" data-animate="false">
+                    <div class="circle" data-percent="40">
+                        <div><img id="c-3" src="imgs/js.png" alt="js logo"></div>
+                    </div>
                 </div>
-                 <div id="circl3">
-                    <span><img src="imgs/js.png" alt="js logo"></span>
+                <div class="progressbar" data-animate="false">
+                    <div class="circle" data-percent="50">
+                        <div><img id="c-4" src="imgs/sql.png" alt="sql logo"></div>
+                    </div>
                 </div>
-                <div id="circl4">
-                    <span><img src="imgs/sql.png" alt="sql logo"></span>
+                <div class="progressbar" data-animate="false">
+                    <div class="circle" data-percent="65">
+                        <div><img id="c-5" src="imgs/python.png" alt="python logo"></div>
+                    </div>
                 </div>
-                 <div id="circl5">
-                    <span><img src="imgs/java.png" alt="java logo"></span>
+                <div class="progressbar" data-animate="false">
+                    <div class="circle" data-percent="80">
+                        <div><img id="c-6" src="imgs/java.png" alt="java logo"></div>
+                    </div>
                 </div>
-                 <div id="circl6">
-                    <span><img src="imgs/python.png" alt="python logo"></span>
-                </div>
+                
             </div>
         </section>
+        
         <section class="section-4">
             <div class="container"id="certifications">
                 <div class="box-1">
@@ -162,6 +178,10 @@
         <script>
             AOS.init();
         </script>
+        <!-- circles-->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+         <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.1/dist/circle-progress.js"></script>
+         <script src="circles.js"></script>
         
         
         

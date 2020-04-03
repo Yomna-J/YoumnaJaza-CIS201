@@ -148,9 +148,11 @@ ul{
     border-radius: 20px;
     width: 80%;
     position: absolute;
-        top: 200%;
+    top: 200%;
     left: 10%;
-    height: 170%;
+    height: 180%;
+    text-align: center;
+
 }
 #skills h1{
     text-align: left;
@@ -174,7 +176,7 @@ ul{
     border-radius: 20px;
     width: 80%;
     position: absolute;
-    top: 300%;
+    top: 310%;
     left: 10%;
     height: 170%;
       display: flex;
@@ -198,7 +200,7 @@ ul{
     position: absolute;
     display: flex;
     flex-direction: row;
-    top: 400%;
+    top: 410%;
     left: 10%;
     height: 170%;
     display: flex;

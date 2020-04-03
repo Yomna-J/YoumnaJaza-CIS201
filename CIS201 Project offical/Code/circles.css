@@ -1,0 +1,62 @@
+
+.progressbar {
+  display: inline-block;
+  width: 20%;
+  margin: 2% 2.5%;
+  text-align: center;
+}
+
+.circle {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.circle canvas {
+  vertical-align: middle;
+}
+
+.circle div {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.circle strong i {
+  font-style: normal;
+  font-size: 0.6em;
+  font-weight: normal;
+}
+
+.circle span {
+  display: block;
+  color: #aaa;
+  margin-top: 12px;
+}
+#c-1{
+  width: 50%;
+}
+#c-2{
+  width: 35%;
+}
+#c-3{
+  width: 50%;
+}
+#c-4{
+  width: 40%;
+  margin-top: -3%;
+}
+#c-5{
+  width: 50%;
+}
+#c-6{
+  width: 55%;
+  margin-top: -3%;
+}
