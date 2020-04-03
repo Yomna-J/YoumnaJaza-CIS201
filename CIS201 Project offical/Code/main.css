@@ -89,6 +89,7 @@ ul{
     grid-row: 1;
     align-self: flex-end;
     font-size:6vw;
+   
     color: #1F88E9;
     text-align: center;
 }
@@ -157,7 +158,8 @@ ul{
 }
 #skills h1{
     text-align: left;
-    font-size:6vw;
+      font-size:6vw;
+ 
     color: #1F88E9;
 }
 
@@ -170,7 +172,7 @@ ul{
     margin: 0 auto;
    
 }
-#certifications{
+#certificates{
 
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
     background-color: #1f88e9;
@@ -179,28 +181,43 @@ ul{
     position: absolute;
     top: 310%;
     left: 0;
-    height: 150%;
+    height: 160%;
    
 }
-.v{
+#certificates h2{
+    
+      font-size:5vw;
+   
+    color: white;
+}
+.outter-container{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;  
- 
+    margin-top: 5%;
+    margin-left: -2%
 }
 .parts{
     width: 100;
    text-align: center;
-    
-    
+
 }
 .parts img{
     width: 30%;
 }
-.parts p{
+.parts>p{
     color: white;
-    width: 50%;
-    
+    width: 60%;
+    margin: 5% auto;
+    font-size: 1.5vw;
+}
+.parts.one p{
+    width: 60%;
+}
+.parts.three img{
+    width: 35%;
+    margin-top: -10%;
 }
 /*---------Section-5 --------*/
 .section-5{
@@ -248,7 +265,7 @@ ul{
     .navbar-brand img{
         margin-top: -20%;
     }
-    #home,#about,#certifications,#contact{
+    #home,#about,#certificates,#contact{
         flex-direction: column;
         
     }
@@ -271,10 +288,10 @@ ul{
     .box-2 img{
         width: 70%;
     }
-    #about .box-1 p,#certifications .box-1 p{
+    #about .box-1 p,#certificates .box-1 p{
         font-size: 3vw;
     }
-    #about .box-1 h2,#certifications .box-1 h2{
+    #about .box-1 h2,##certificates .box-1 h2{
         font-size: 7vw;
         align-self: flex-start;
     }
@@ -283,10 +300,30 @@ ul{
         height: 220%;
          
     }
-    #certifications{
+    #certificates{
         top: 350%;
+        height: 250%;
     }
-
+    .outter-container{
+      flex-direction: column;
+        
+    }
+    .parts img{
+        width: 100px;
+    }
+    .parts.two img{
+        margin-left: 10px;
+    }
+    .parts.three img{
+        width: 110px;
+        margin: auto;
+    }
+    .parts p{
+        font-size:14px;
+    }
+    #contact{
+        top:520%;
+    }
    
 }
 
