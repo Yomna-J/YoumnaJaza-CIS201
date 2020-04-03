@@ -1,3 +1,4 @@
+/*------------General ------*/
 *{
     margin:0;
     padding:0;
@@ -5,7 +6,6 @@
     outline: 0;
     font-size: 100%;
     vertical-align: baseline;
-
     font-family:'Montserrat',sans-serif;
 }
 img{
@@ -14,11 +14,9 @@ img{
 .container{
     width:50%;
     margin:0 auto;
-    display: flex;
-    flex-direction: row;
     
 }
-/* header -- begin */
+/* -----------header----------- */
 .navbar-default {
     background-color: #1f88e9;
     width: 100%;
@@ -26,51 +24,38 @@ img{
     margin: 0;
     border-style: hidden;
     border-radius: 0;
-   
 }
-
 .navbar-brand img{ 
     margin-top: -10%;
     width:40px;
     height: auto;
-    
 }
-
 .box-0{
     display: grid;
     width: 90%;
     margin-top: 1%;
     grid-template-columns: repeat(5,auto);
-    
 }
 ul{
     width: 90%;
     left:4%; 
 }
-
-
-
 .navbar-default .navbar-nav li a {
     color: white;
     letter-spacing: 3px;
     padding: 4%;
-    
-   
 }
 .navbar-default .navbar-nav li {
     display: inline;
     text-align: center;
     margin-left: 30%;
-    
 }
 .navbar-default .navbar-nav li a:hover {
     background-color: aliceblue;
     color: black;
     text-decoration: none;
-   
 }
-/* header -------------- end */
-
+/* ---------- Section-1 -----------*/
 .section-1{
     background-color: #1F88E9;
     height: 300px;
@@ -78,9 +63,8 @@ ul{
     position: relative;
     display: inline-block;
     margin: 0 auto;
-  
 }
-/*----White Rectangle---*/
+/*-White Rectangle-*/
 #home{
     background-color: white;
     border: solid lightgrey;
@@ -91,6 +75,8 @@ ul{
     top: 0%;
     height: 170%;
     left:10%;
+    display: flex;
+    flex-direction: row;
 }
 .box-1{
     background-color: burlywood;
@@ -126,7 +112,7 @@ ul{
     width:90%;
     margin:auto ;
 }
-/*--- Section-2 ----*/
+/*---------Section-2 --------*/
 .section-2{
     height: 300px;
     width: 100%;
@@ -141,16 +127,87 @@ ul{
     border-radius: 20px;
     width: 80%;
     position: absolute;
-    height: 80%;
+    display: flex;
+    flex-direction: row;
     top: 100%;
     left: 10%;
     height: 170%;
-    
+}
+/*---------Section-3 --------*/
+.section-3{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+}
+#skills{
+   
+    filter: drop-shadow(50px 50px 99px rgba(65, 65, 65, 0.059));
+    border: solid lightgrey;
+    border-radius: 20px;
+    width: 80%;
+    position: absolute;
+        top: 200%;
+    left: 10%;
+    height: 170%;
+}
+#skills h1{
+    text-align: left;
+    font-size:6vw;
+    color: #1F88E9;
+}
+
+/*---------Section-4 --------*/
+.section-4{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+   
+}
+#certifications{
+     background-color: rgb(119, 14, 14);
+    filter: drop-shadow(50px 50px 99px rgba(65, 65, 65, 0.059));
+    border: solid lightgrey;
+    border-radius: 20px;
+    width: 80%;
+    position: absolute;
+    top: 300%;
+    left: 10%;
+    height: 170%;
+      display: flex;
+    flex-direction: row;
+}
+
+/*---------Section-5 --------*/
+.section-5{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+}
+#contact{
+   background-color: rgb(119, 14, 14);
+    filter: drop-shadow(50px 50px 99px rgba(65, 65, 65, 0.059));
+    border: solid lightgrey;
+    border-radius: 20px;
+    width: 80%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 400%;
+    left: 10%;
+    height: 170%;
+    display: flex;
+    flex-direction: row;
 }
 
 
 
-/* ---Media Quries-- */
+/*---------Media Quries-------- */
 
 @media (max-width:750px){
     
@@ -171,7 +228,7 @@ ul{
     .navbar-brand img{
         margin-top: -20%;
     }
-    .container{
+    #home,#about,#certifications,#contact{
         flex-direction: column;
         
     }
@@ -191,10 +248,12 @@ ul{
     .box-2 img{
         width: 55%;
     }
-    #about .box-1 p{
+    #about .box-1 p,#certifications .box-1 p{
         font-size: 3vw;
+        color: darkmagenta;
+        
     }
-    #about .box-1 h2{
+    #about .box-1 h2,#certifications .box-1 h2{
         font-size: 7vw;
         align-self: flex-start;
     }
