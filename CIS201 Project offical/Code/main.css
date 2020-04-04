@@ -368,7 +368,7 @@ input:hover::placeholder, input:focus::placeholder, input:active:focus::placehol
     -webkit-transition: .3s ease-in-out 0.6s;
     transition: .3s ease-in-out 0.6s;
   }
-
+/*--- section-6------*/
 .section-6{
     height: 300px;
     width: 100%;
@@ -379,15 +379,24 @@ input:hover::placeholder, input:focus::placeholder, input:active:focus::placehol
 .footer{
    
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
-    background-color: brown;
-    border-radius: 20px;
-    width: 80%;
+    background-color: #1F88E9;
+    width: 100%;
     position: absolute;
     top: 510%;
-    left: 10%;
-    height: 180%;
+    bottom: 0;
+    height: 30%;
     text-align: center;
+}
 
+.footer-container img{
+    width: 20px;
+    margin:40px 70px 0 0;
+}
+.back img{
+    background: #1F88E9;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: -6%;
 }
 /*---------Media Quries-------- */
 
