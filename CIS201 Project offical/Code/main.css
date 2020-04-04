@@ -258,7 +258,7 @@ ul{
   }
   
 
-  
+  @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
   input {
     display: block;
     height: 50px;
@@ -386,18 +386,70 @@ input:hover::placeholder, input:focus::placeholder, input:active:focus::placehol
     bottom: 0;
     height: 30%;
     text-align: center;
+    
+}
+.footer-container {
+    display: inline;
+    margin-left: 20px;
+}
+.footer-container img{
+    width: 25px;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+.up{
+    background-color: #1F88E9;
+	width:50px;
+	height:50px;
+	left:46.5%;
+    margin-top: -25px;
+	border-radius:50%;
+	position:  relative;
+}
+.up a span{
+position: absolute;
+  top: 40px;
+  left: 60%;
+  width: 15px;
+  height: 15px;
+	
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(225deg);
+  transform: rotate(225deg);
+  -webkit-animation: down-up 1.5s infinite;
+  animation: down-up 1.5s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes down-up {
+  0% {
+    -webkit-transform: rotate(135deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(135deg) translate(-15px, 15px);
+    opacity: 0;
+  }
+}
+@keyframes down-up {
+  0% {
+    transform: rotate(135deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(135deg) translate(-20px, 20px);
+    opacity: 0;
+  }
 }
 
-.footer-container img{
-    width: 20px;
-    margin:40px 70px 0 0;
-}
-.back img{
-    background: #1F88E9;
-    width: 40px;
-    border-radius: 50%;
-    margin-top: -6%;
-}
+
 /*---------Media Quries-------- */
 
 @media (max-width:750px){
@@ -484,7 +536,6 @@ input:hover::placeholder, input:focus::placeholder, input:active:focus::placehol
     }
     #contact .box-1 button:nth-of-type(1) {
          height: 44px;
-         
     }
     input{
        height: 44px;
@@ -492,6 +543,13 @@ input:hover::placeholder, input:focus::placeholder, input:active:focus::placehol
     }
     .footer{
         top:690%;
+    }
+    .footer-container img{
+        width: 17px;
+        margin: auto 20px;
+    }
+    .up{
+        left: 45%;
     }
 }
 
