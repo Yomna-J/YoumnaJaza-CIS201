@@ -508,7 +508,7 @@ position: absolute;
     }
  
      #skills{
-        height: 220%;
+        height: 210%;
          
     }
     #certificates{
@@ -537,7 +537,7 @@ position: absolute;
         height: 250%;
     }
     #contact img{
-        width: 50%;
+        width: 60%;
     }
     #contact .box-1 button:nth-of-type(1) {
          height: 44px;

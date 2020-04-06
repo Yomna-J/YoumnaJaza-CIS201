@@ -43,7 +43,7 @@
 
 #c-1{
   width: 100px;
-    margin-top: -4px;
+    margin-top: 0;
 }
 #c-2{
   width: 70px;
@@ -70,8 +70,28 @@
         margin-left: -33px;
     }
     .circle{
-        margin:10% 0 0 7%;
+        margin:15% 0 0 7%;
     }
+    #c-1{
+        width: 80px;
+        margin-top: -4px;
+    }
+    #c-2{
+        width: 60px;
+    }
+    #c-3{
+        width: 80px;
+    }
+    #c-4{
+        width: 90px;
+    }
+    #c-5{
+        width: 70px;
+    }
+    #c-6{
+        width: 80px;
+    }
+    
 
 
 

@@ -1,36 +1,49 @@
-/**
- * index.js
- * - All our useful JS goes here, awesome!
- Maruf-Al Bashir Reza
- */
 
-console.log("JavaScript is amazing!");
-$(document).ready(function($) {
-  function animateElements() {
-    $('.progressbar').each(function() {
-      var elementPos = $(this).offset().top;
-      var topOfWindow = $(window).scrollTop();
-      var percent = $(this).find('.circle').attr('data-percent');
-      var percentage = parseInt(percent, 10) / parseInt(100, 10);
-      var animate = $(this).data('animate');
-      if (elementPos < topOfWindow + $(window).height() - 30 && !animate) {
-        $(this).data('animate', true);
-        $(this).find('.circle').circleProgress({
-          startAngle: -Math.PI / 2,
-          value: percent / 100,
-          thickness: 4,
-          lincCape:'round',
-          emptyFill:'#d4d4d4',
-          fill: {
-            color: '#1F88E9'
-          },
-          size:140
-        })
-      }
-    });
+function myFunction(x) {
+  
+  let size = 150;
+  if (x.matches) {
+    // If media query matches
+    size = 120;
   }
 
-  // Show animated elements
-  animateElements();
-  $(window).scroll(animateElements);
+    function animateElements() {
+      $(".progressbar").each(function () {
+        var elementPos = $(this).offset().top;
+        var topOfWindow = $(window).scrollTop();
+        var percent = $(this).find(".circle").attr("data-percent");
+        var percentage = parseInt(percent, 10) / parseInt(100, 10);
+        var animate = $(this).data("animate");
+        if (elementPos < topOfWindow + $(window).height() - 30 && !animate) {
+          $(this).data("animate", true);
+          $(this)
+            .find(".circle")
+            .circleProgress({
+              startAngle: -Math.PI / 2,
+              value: percent / 100,
+              thickness: 4,
+              lincCape: "round",
+              emptyFill: "#d4d4d4",
+              fill: {
+                color: "#1F88E9",
+              },
+
+              size: size,
+            });
+          
+        }
+      });
+    }
+
+    // Show animated elements
+    animateElements();
+    $(window).scroll(animateElements);
+}
+
+var x = window.matchMedia("(max-width: 700px)");
+myFunction(x);
+
+$(window).on("resize", function (e) {
+  var x = window.matchMedia("(max-width: 700px)");
+  myFunction(x); // Call listener function at run time
 });
