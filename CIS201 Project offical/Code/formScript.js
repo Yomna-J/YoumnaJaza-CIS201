@@ -6,7 +6,7 @@ $(document).ready(function () {
    
     reg_btn.click(function (e) {
         if($('#fullName' ).val() === ''||$('#email').val()===''){
-        swal.fire("Please Fill Required Fields");
+        swal.fire("Please Fill All the Fields");
          }
         else{
         e.preventDefault();
