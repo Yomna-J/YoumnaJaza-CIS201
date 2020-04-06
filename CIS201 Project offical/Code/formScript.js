@@ -2,9 +2,8 @@
 $(document).ready(function () {
     /*------- button with class register -------*/
     var reg_btn = $('#contact .box-1 .send');
-  
-    /*------- back button ----------------------*/
-    var back_btn = $('#contact .box-1 .back');
+    
+   
     reg_btn.click(function (e) {
         e.preventDefault();
         $(this).siblings('.reg').css({
@@ -19,3 +18,4 @@ $(document).ready(function () {
         }).end().end();
     });
 })
+

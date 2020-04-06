@@ -96,9 +96,8 @@ ul{
     color: #1F88E9;
     text-align: center;
 }
-.box-1 h2 span{
-    font-size: 4vw;
-    color: black;
+#home .box-1 h2{
+    font-size: 5vw;
 }
 .box-1>p{
     font-size: 1.9vw;
@@ -481,6 +480,9 @@ position: absolute;
     #home{
         top:0;
     }
+    #home .box-1 h2{
+        font-size: 8.5vw;
+    }
     .box-1 h2{
         font-size: 8vw;
     }
@@ -557,18 +559,3 @@ position: absolute;
 }
 
 
-}
-
-/*Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {.....}
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { ... }
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
