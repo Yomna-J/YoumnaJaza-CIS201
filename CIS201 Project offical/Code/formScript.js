@@ -5,6 +5,10 @@ $(document).ready(function () {
     
    
     reg_btn.click(function (e) {
+        if($('#fullName' ).val() === ''||$('#email').val()===''){
+        swal.fire("Please Fill Required Fields");
+         }
+        else{
         e.preventDefault();
         $(this).siblings('.reg').css({
             'transform': 'translateY(40%) scale(5)',
@@ -16,6 +20,7 @@ $(document).ready(function () {
             'top': '40%',
             'z-index': '8',
         }).end().end();
+        }
     });
 })
 
