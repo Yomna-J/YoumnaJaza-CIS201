@@ -4,7 +4,7 @@ function myFunction(x) {
   let size = 150;
   if (x.matches) {
     // If media query matches
-    size = 120;
+    size = 110;
   }
 
     function animateElements() {

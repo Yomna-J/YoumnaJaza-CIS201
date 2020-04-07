@@ -3,7 +3,6 @@
   display: inline-block;
   width: 20%;
   margin: 2% 2.5%;
-  text-align: center;
 }
 
 .circle {
@@ -12,11 +11,14 @@
   margin-top: 10px;
   display: inline-block;
   position: relative;
-  text-align: center;
+ 
 }
+
+
 
 .circle canvas {
   vertical-align: middle;
+   
 }
 
 .circle div {
@@ -24,9 +26,9 @@
   top: 30px;
   left: 0;
   width: 100%;
-  text-align: center;
   line-height: 40px;
   font-size: 20px;
+
 }
 
 .circle strong i {
@@ -39,6 +41,7 @@
   display: block;
   color: #aaa;
   margin-top: 12px;
+ text-align: center;
 }
 
 #c-1{
@@ -67,26 +70,30 @@
 @media (max-width:750px){
     .progressbar{
         width: 50%;
-        margin-left: -33px;
+        margin-left: -22px;
     }
     .circle{
-        margin:15% 0 0 7%;
+        margin:20% 0 0 15%;
     }
     #c-1{
         width: 80px;
-        margin-top: -4px;
+        margin-top: -10px;
     }
     #c-2{
         width: 60px;
+        margin-top: -15px;
     }
     #c-3{
         width: 80px;
+        margin-top: -15px;
     }
     #c-4{
         width: 90px;
+        margin-top: -25px;
     }
     #c-5{
         width: 70px;
+        margin-top: -10px;
     }
     #c-6{
         width: 80px;
