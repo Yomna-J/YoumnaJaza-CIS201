@@ -1,5 +1,5 @@
 # CIS201-Project
-This is a repository for Fundamentals of Web Design (CIS201) course. It includes Assigments and the project. 
+This is a repository for Fundamentals of Web Design (CIS201) course. It includes Assignments and the project. 
   
 By: Youmna Jaza  
 Course: CIS201 Fundamentals of Web Design  
