@@ -1,0 +1,105 @@
+
+.progressbar {
+  display: inline-block;
+  width: 20%;
+  margin: 2% 2.5%;
+}
+
+.circle {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: inline-block;
+  position: relative;
+ 
+}
+
+
+
+.circle canvas {
+  vertical-align: middle;
+   
+}
+
+.circle div {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  line-height: 40px;
+  font-size: 20px;
+
+}
+
+.circle strong i {
+  font-style: normal;
+  font-size: 0.6em;
+  font-weight: normal;
+}
+
+.circle span {
+  display: block;
+  color: #aaa;
+  margin-top: 12px;
+ text-align: center;
+}
+
+#c-1{
+  width: 100px;
+    margin-top: 0;
+}
+#c-2{
+  width: 70px;
+      margin-top: -5px;
+}
+#c-3{
+    width: 100px;
+    margin-top: -7px;
+}
+#c-4{
+  width: 110px;
+  margin-top: -18px;
+}
+#c-5{
+  width: 80px;
+}
+#c-6{
+  width: 110px;
+  margin-top: -18px;
+}
+@media (max-width:750px){
+    .progressbar{
+        width: 50%;
+        margin-left: -22px;
+    }
+    .circle{
+        margin:20% 0 0 15%;
+    }
+    #c-1{
+        width: 80px;
+        margin-top: -10px;
+    }
+    #c-2{
+        width: 60px;
+        margin-top: -15px;
+    }
+    #c-3{
+        width: 80px;
+        margin-top: -15px;
+    }
+    #c-4{
+        width: 90px;
+        margin-top: -25px;
+    }
+    #c-5{
+        width: 70px;
+        margin-top: -10px;
+    }
+    #c-6{
+        width: 80px;
+    }
+    
+
+
+
+}
